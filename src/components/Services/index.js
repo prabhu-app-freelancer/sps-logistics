@@ -39,7 +39,7 @@ const Services = () => {
       </div>
      </div>
      <div class="col-md-12">
-      <a class="read_more" href="#">Read More</a>
+      <a class="read_more" href="#services">Read More</a>
      </div>
     </div>
    </div>

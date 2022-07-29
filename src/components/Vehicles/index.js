@@ -1,6 +1,3 @@
-//import logo from './logo.svg';
-//import './App.css';
-
 const Vehicles = () => {
  return (
   <section id="vehicles" class="vehicles">
@@ -104,7 +101,7 @@ const Vehicles = () => {
    <div class="container">
     <div class="row">
      <div class="col-md-12">
-      <a class="read_more" href="#">Read More</a>
+      <a class="read_more" href="#vehicles">Read More</a>
      </div>
     </div>
    </div>
