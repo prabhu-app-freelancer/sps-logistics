@@ -1,5 +1,4 @@
-//import logo from './logo.svg';
-//import './App.css';
+import { IconButton } from "../common.styles";
 
 const Footer = () => {
  return (
@@ -9,10 +8,10 @@ const Footer = () => {
      <div class="row">
       <div class="col-md-4">
        <ul class="location_icon">
-        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Address : Lorem Ipsum <br/> is simply dummy
+        <li><IconButton className="footer-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></IconButton> Address : Anna Nagar <br/> Tamilnadu, India
         </li>
-        <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>Phone :  +(1234) 567 890</li>
-        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>Email : demo@gmail.com</li>
+        <li><IconButton className="footer-icon"><i class="fa fa-phone" aria-hidden="true"></i></IconButton>Phone :  +(91) 98735 67770</li>
+        <li><IconButton className="footer-icon"><i class="fa fa-envelope" aria-hidden="true"></i></IconButton>Email : info@spslogistics.com</li>
        </ul>
        <form class="bottom_form">
         <h3>Newsletter</h3>
@@ -31,7 +30,7 @@ const Footer = () => {
      <div class="container">
       <div class="row">
        <div class="col-md-12">
-        <p>© 2022 All Rights Reserved. Design by<a href="#"> SPS Software Pvt Ltd</a></p>
+        <p>© 2022 All Rights Reserved. Design by<a href="www.spssoftware.com"> SPS Software Pvt Ltd</a></p>
        </div>
       </div>
      </div>

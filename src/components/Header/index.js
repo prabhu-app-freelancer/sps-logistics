@@ -1,4 +1,5 @@
-import { HeaderButton, LogoContainer } from "./header.styles";
+import { IconButton } from "../common.styles";
+import { LogoContainer } from "./header.styles";
 import Icon from "../Icon";
 
 const Header = ({ onToggleSidePanel }) => {
@@ -15,8 +16,8 @@ const Header = ({ onToggleSidePanel }) => {
       <div class="col-md-8 col-sm-8">
        <div class="right_bottun">
         <ul class="conat_info d_none ">
-         <li><HeaderButton><Icon className="fa fa-user" aria-hidden="true"/></HeaderButton></li>
-         <li><HeaderButton><Icon className="fa fa-search" aria-hidden="true"/></HeaderButton></li>
+         <li><IconButton><Icon className="fa fa-user" aria-hidden="true" /></IconButton></li>
+         <li><IconButton><Icon className="fa fa-search" aria-hidden="true" /></IconButton></li>
         </ul>
         <button className="openbtn" onClick={onToggleSidePanel}>
          <img src="images/menu_icon.png" alt="#" />
