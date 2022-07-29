@@ -1,5 +1,4 @@
-//import logo from './logo.svg';
-//import './App.css';
+import { ReadMore } from "../common.styles";
 
 const Services = () => {
  return (
@@ -39,7 +38,7 @@ const Services = () => {
       </div>
      </div>
      <div class="col-md-12">
-      <a class="read_more" href="#services">Read More</a>
+      <ReadMore className="service" href="#services">Read More</ReadMore>
      </div>
     </div>
    </div>

@@ -1,5 +1,5 @@
-//import logo from './logo.svg';
-//import './App.css';
+import { ReadMore } from "../common.styles";
+import QuoteForm from "./QuoteForm";
 
 const Banner = () => {
  return (
@@ -18,8 +18,8 @@ const Banner = () => {
          <div class="col-md-7 col-lg-5">
           <div class="text-bg">
            <h1>SPS Logistics</h1>
-           <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has i</span>
-           <a class="read_more" href="#">Contact Us</a>
+           <span>We provide road transport services PAN India and in the neighbouring countries of Bhutan, Nepal and at Bangladesh border with a commitment of timely delivery and safe handling. Since its inception in 1989, SPS Logistics Limited has been continuously adding value to it’s stakeholders by its services.</span>
+           <ReadMore href="#contact">Contact Us</ReadMore>
           </div>
          </div>
          <div class="col-md-12 col-lg-7">
@@ -30,27 +30,7 @@ const Banner = () => {
             </div>
            </div>
            <div class="col-md-6">
-            <form class="transfot">
-             <div class="col-md-12">
-              <span>Professional Services</span>
-              <h3>Get your transport quote</h3>
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Location" type="text" name="Location" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="To destination" type="text" name="To destination" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Email" type="text" name="Email" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Contact Number" type="text" name="Contact Number" />
-             </div>
-             <div class="col-md-12">
-              <button class="get_now">Get Now quote</button>
-             </div>
-            </form>
+            <QuoteForm />
            </div>
           </div>
          </div>
@@ -64,9 +44,9 @@ const Banner = () => {
         <div class="row">
          <div class="col-md-7 col-lg-5">
           <div class="text-bg">
-           <h1>Best Logistic Company</h1>
+           <h1>SPS Logistics Banner2</h1>
            <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has i</span>
-           <a class="read_more" href="#">Contact Us</a>
+           <ReadMore href="#contact">Contact Us</ReadMore>
           </div>
          </div>
          <div class="col-md-12 col-lg-7">
@@ -77,27 +57,7 @@ const Banner = () => {
             </div>
            </div>
            <div class="col-md-6">
-            <form class="transfot">
-             <div class="col-md-12">
-              <span>Professional Services</span>
-              <h3>Get your transport quote</h3>
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Location" type="text" name="Location" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="To destination" type="text" name="To destination" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Email" type="text" name="Email" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Contact Number" type="text" name="Contact Number" />
-             </div>
-             <div class="col-md-12">
-              <button class="get_now">Get Now quote</button>
-             </div>
-            </form>
+            <QuoteForm />
            </div>
           </div>
          </div>
@@ -111,9 +71,9 @@ const Banner = () => {
         <div class="row">
          <div class="col-md-7 col-lg-5">
           <div class="text-bg">
-           <h1>Best Logistic Company</h1>
+           <h1>SPS Logistics Banner3</h1>
            <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has i</span>
-           <a class="read_more" href="#">Contact Us</a>
+           <ReadMore href="#contact">Contact Us</ReadMore>
           </div>
          </div>
          <div class="col-md-12 col-lg-7">
@@ -124,27 +84,7 @@ const Banner = () => {
             </div>
            </div>
            <div class="col-md-6">
-            <form class="transfot">
-             <div class="col-md-12">
-              <span>Professional Services</span>
-              <h3>Get your transport quote</h3>
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Location" type="text" name="Location" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="To destination" type="text" name="To destination" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Email" type="text" name="Email" />
-             </div>
-             <div class="col-md-12">
-              <input class="transfot_form" placeholder="Contact Number" type="text" name="Contact Number" />
-             </div>
-             <div class="col-md-12">
-              <button class="get_now">Get Now quote</button>
-             </div>
-            </form>
+            <QuoteForm />
            </div>
           </div>
          </div>
