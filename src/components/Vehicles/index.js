@@ -1,3 +1,5 @@
+import { ReadMore } from "../common.styles";
+
 const Vehicles = () => {
  return (
   <section id="vehicles" class="vehicles">
@@ -101,7 +103,7 @@ const Vehicles = () => {
    <div class="container">
     <div class="row">
      <div class="col-md-12">
-      <a class="read_more" href="#vehicles">Read More</a>
+      <ReadMore className="ReadMore" href="#vehicles">Read More</ReadMore>
      </div>
     </div>
    </div>

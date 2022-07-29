@@ -1,3 +1,5 @@
+import { ReadMore } from "../common.styles";
+
 const Choose = () => {
  return (
   <div class="choose">
@@ -15,7 +17,7 @@ const Choose = () => {
        <i><img src="images/why1.png" alt="#" /></i>
        <h3>Our Vision</h3>
        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-       <a className="read_more" href="#">Read More</a>
+       <ReadMore href="#">Read More</ReadMore>
       </div>
      </div>
      <div class="col-md-5 offset-md-2">
@@ -23,7 +25,7 @@ const Choose = () => {
        <i><img src="images/why2.png" alt="#" /></i>
        <h3>Estimate Shipping</h3>
        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-       <a className="read_more" href="#">Read More</a>
+       <ReadMore href="#">Read More</ReadMore>
       </div>
      </div>
     </div>

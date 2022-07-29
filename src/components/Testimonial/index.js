@@ -1,5 +1,4 @@
-//import logo from './logo.svg';
-//import './App.css';
+import { ReadMore } from "../common.styles";
 
 const Testimonial = () => {
  return (
@@ -81,7 +80,7 @@ const Testimonial = () => {
     </div>
     <div class="row">
      <div class="col-md-12">
-      <a class="read_more" href="#testimonial">Read More</a>
+      <ReadMore className="testimonial" href="#testimonial">Read More</ReadMore>
      </div>
     </div>
    </div>

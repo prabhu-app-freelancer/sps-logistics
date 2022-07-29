@@ -1,5 +1,4 @@
-//import logo from './logo.svg';
-//import './App.css';
+import { ReadMore } from "../common.styles";
 
 const About = () => {
  return (
@@ -16,7 +15,7 @@ const About = () => {
        <h2>About Us</h2>
        <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There
        </p>
-       <a class="read_more" href="#">Read More</a>
+       <ReadMore href="#">Read More</ReadMore>
       </div>
      </div>
     </div>
