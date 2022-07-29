@@ -3,7 +3,7 @@ import { SidePanelContainer,CloseButton } from "./sidePanel.styles";
 const SidePanel = ({ onToggleSidePanel }) => {
  return (
   <SidePanelContainer className="sidepanel">
-   <CloseButton href="javascript:void(0)" className="closebtn"
+   <CloseButton className="closebtn"
     onClick={onToggleSidePanel}>×</CloseButton>
    <a href="index.html">Home </a>
    <a href="#about">About</a>

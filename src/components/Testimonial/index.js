@@ -81,7 +81,7 @@ const Testimonial = () => {
     </div>
     <div class="row">
      <div class="col-md-12">
-      <a class="read_more" href="#">Read More</a>
+      <a class="read_more" href="#testimonial">Read More</a>
      </div>
     </div>
    </div>
