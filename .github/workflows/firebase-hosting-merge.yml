@@ -17,4 +17,4 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SPS_GROUP_194B6 }}'
           channelId: live
-          projectId: sps-logistics
+          projectId: sps-logistic
